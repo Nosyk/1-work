@@ -273,7 +273,7 @@ body {
   border-radius: 4px;
 }
 
-.modal-close-btn-icon {
+.button-modal {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -285,6 +285,10 @@ body {
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-close-btn-icon{
+  
 }
 
 .backdrop.is-hidden {
@@ -322,8 +326,8 @@ body {
   gap: 24px;
 }
 
-.advensers-list-item {
-  width: calc ((100% - 72px) /4);
+.advensers-item {
+  width: calc((100% - 72px) /4);
 }
 
 .advensers-item-title {
